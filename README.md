@@ -2,6 +2,8 @@
 
 Test if the value is integer of specified size
 
+[![Build Status](https://travis-ci.org/iefserge/isint.svg?branch=master)](https://travis-ci.org/iefserge/isint)
+
 ## USAGE
 
 ```js
