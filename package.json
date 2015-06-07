@@ -1,6 +1,6 @@
 {
   "name": "isint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test if the value is integer of specified size",
   "main": "index.js",
   "scripts": {
