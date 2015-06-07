@@ -1,3 +1,5 @@
+'use strict';
+
 // Number.isInteger polyfill
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
 var isInteger = Number.isInteger || function(value) {
