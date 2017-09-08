@@ -3,8 +3,7 @@
 // Number.isInteger polyfill
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
 var isInteger = Number.isInteger || function(value) {
-    return typeof value === 'number' && isFinite(value)
-      && Math.floor(value) === value;
+    return typeof value === 'number' && parseInt(value) === value;
 };
 
 exports.uint8 = function(value) {
